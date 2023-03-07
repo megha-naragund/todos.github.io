@@ -2,7 +2,7 @@ import React from "react";
 
 const InputTaskForm =({addTask}) => {
     const [title, setTitle]= React.useState();//fetch the form data
-    const [task, setTask] = React.useState({
+    const [task] = React.useState({
         userId:"1",
         id:"",
         titleTask:title,
