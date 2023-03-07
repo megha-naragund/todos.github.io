@@ -9,10 +9,6 @@ body {
   justify-content: center;
   /* background-color: rgba(18, 18, 19, 0.059); */
 }
-/* main conatiner */
-main{
-  width: 700px
-}
 header{
   margin-left: 50%;
 }
