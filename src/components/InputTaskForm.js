@@ -20,7 +20,7 @@ const InputTaskForm =({addTask}) => {
     return (
         <div>
             {/* on submit form call the addTask function */}
-            <form onSubmit={(e)=> {e.preventDefault(); addTask(task)}}>
+            <form onSubmit={(e)=> {e.preventDefault();  addTask(task); setTitle("");}}>
                     <section id="descriptionContainer">
                         <input type="text" id="description" name="name" value={title} placeholder="What you need to do!" onChange={handleChange} required />
                         <button id="addTask" type="submit"> <img
